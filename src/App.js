@@ -1,14 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>
+      <p className="note">
         Чтобы все заработало, запусти сервачок из папки <strong>../backend/</strong><br />
-        Он же уже установлен?(<strong>npm i</strong>)
+        Однако же для джедаев есть специальная команда:<br />
+        <strong>npm run s_start</strong><br />
+        (запускает сервер, затем приложение)
       </p>
-      app
+      тут app
     </div>
   );
 }
