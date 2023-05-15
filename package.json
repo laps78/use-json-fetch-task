@@ -13,7 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "s_start": "cd ../backend/ && npm start && cd .. && npm start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
